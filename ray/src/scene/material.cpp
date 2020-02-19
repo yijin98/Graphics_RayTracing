@@ -93,6 +93,16 @@ glm::dvec3 TextureMap::getPixelAt(int x, int y) const
 	//
 	// In order to add texture mapping support to the
 	// raytracer, you need to implement this function.
+	glm::dvec3 color = glm::dvec3(0,0,0);
+	if( x < 0 || y < 0 || x >= width || y >= height || data.size() < 3 * width * height)
+		return color;
+	int pad = x + y * width;
+	for(int i = 0; i < 3; i++)
+		color[i] = double(data[i + pad * 3]) / 255.0;
+
+	return color;
+
+
 
 	return glm::dvec3(1, 1, 1);
 }
