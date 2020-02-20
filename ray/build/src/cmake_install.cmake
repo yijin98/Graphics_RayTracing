@@ -1,4 +1,4 @@
-# Install script for directory: /v/filer5b/v38q001/yijin/Graphics_RayTracing/ray/src
+# Install script for directory: /u/wan0401/workspace/Graphics_RayTracing/ray/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

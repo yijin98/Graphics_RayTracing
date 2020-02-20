@@ -91,6 +91,56 @@ glm::dvec3 RayTracer::traceRay(ray& r, const glm::dvec3& thresh, int depth, doub
 
 		const Material& m = i.getMaterial();
 		colorC = m.shade(scene.get(), r, i);
+
+
+		glm::dvec3 n = i.getN();
+		glm::dvec3 l = -r.getDirection();
+
+		bool in = glm::dot(l,n) < 0;
+
+		t = i.getT();
+		//reflection
+		if(!in && m.Refl()){
+			glm::dvec3 angle = 2 * glm::dot(l,n) * n - l;
+			ray reflRay = ray(r.at(i), angle, glm::dvec3(1.0,1.0,1.0), ray::REFLECTION);
+			double newT = 0;
+			colorC += m.kr(i) * traceRay(reflRay, thresh, depth - 1, newT);
+		}
+
+		//refraction
+		if(m.Trans()){
+			double index;
+			if(in){
+				index = m.index(i);
+				n = -n;
+			}
+			else{
+				index = 1 / m.index(i);
+			}
+			l = -l;
+			double w  = index * abs(glm::dot(n,l));
+			double cost = 1 + (w + index) * (w - index);
+			if(cost > 0){
+				cost = sqrt(cost);
+				glm::dvec3 angle = index * l + (w - cost) * n;
+				ray refrRay = ray(r.at(i), angle, glm::dvec3(1.0,1.0,1.0),ray::REFRACTION);
+				double newT = 0;
+				glm::dvec3 c = traceRay(refrRay, thresh, depth - 1, newT);
+				// if(!in){
+				// 	for(int x  = 0;x < 3; x++){
+				// 		c[x] *= pow(m.kt(i)[x], newT);
+				// 	}
+				// }
+				colorC += c;
+			}
+			else if (m.Refl()){
+				glm::dvec3 angle = 2 * glm::dot(l,n) * n - l;
+				angle = -angle;
+				ray reflRay = ray(r.at(i), angle, glm::dvec3(1.0,1.0,1.0), ray::REFLECTION);
+				double newT = 0;
+				colorC += m.kr(i) * traceRay(reflRay, thresh, depth - 1, newT);
+			}
+		}
 	} else {
 		// No intersection.  This ray travels to infinity, so we color
 		// it according to the background color, which in this (simple) case
