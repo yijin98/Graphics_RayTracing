@@ -1,4 +1,4 @@
-# Install script for directory: /u/wan0401/workspace/Graphics_RayTracing/ray
+# Install script for directory: /v/filer5b/v38q001/yijin/Graphics_RayTracing/ray
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/u/wan0401/workspace/Graphics_RayTracing/ray/build/src/cmake_install.cmake")
+  include("/v/filer5b/v38q001/yijin/Graphics_RayTracing/ray/build/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/u/wan0401/workspace/Graphics_RayTracing/ray/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/v/filer5b/v38q001/yijin/Graphics_RayTracing/ray/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

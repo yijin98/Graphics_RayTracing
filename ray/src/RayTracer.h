@@ -11,6 +11,7 @@
 #include <thread>
 #include "scene/cubeMap.h"
 #include "scene/ray.h"
+#include <pthread.h>
 
 class Scene;
 class Pixel {
@@ -68,6 +69,9 @@ private:
 	std::unique_ptr<Scene> scene;
 
 	bool m_bBufferReady;
+	std::vector<bool> threadStatus;
+	std::vector<std::thread> pool;
+	void NewRayTrace(int tid, int w, int h);
 
 };
 

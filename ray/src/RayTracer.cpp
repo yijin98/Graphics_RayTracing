@@ -198,7 +198,24 @@ void RayTracer::traceSetup(int w, int h)
 
 	// YOUR CODE HERE
 	// FIXME: Additional initializations
+	threadStatus.resize(threads);
 }
+
+/* RayTracer::NewRayTrace
+ *
+ *	Start a new thread for ray tracing
+ */
+void RayTracer::NewRayTrace(int tid, int w, int h)
+{
+	for (int i = tid; i < w * h; i += threads){
+		int m = i / h;
+		int n = i % h;
+		glm::dvec3 color = tracePixel(m, n);
+		setPixel(m, n, color);
+	}
+	threadStatus[tid] = true;
+}
+
 
 /*
  * RayTracer::traceImage
@@ -223,6 +240,12 @@ void RayTracer::traceImage(int w, int h)
 	//
 	//       An asynchronous traceImage lets the GUI update your results
 	//       while rendering.
+
+	pool.clear();
+	for (int i = 0; i < threads; i++){
+		threadStatus[i] = false;
+		pool.push_back(std::thread(&RayTracer::NewRayTrace, this, i, w, h));
+	}
 }
 
 int RayTracer::aaImage()
@@ -243,6 +266,10 @@ bool RayTracer::checkRender()
 	//
 	// TIPS: Introduce an array to track the status of each worker thread.
 	//       This array is maintained by the worker threads.
+	for (bool st: threadStatus){
+		if (!st) {return false;}
+	}
+	return true;
 }
 
 void RayTracer::waitRender()
@@ -253,6 +280,9 @@ void RayTracer::waitRender()
 	//        traceImage implementation.
 	//
 	// TIPS: Join all worker threads here.
+	for (auto &th: pool){
+		th.join();
+	}
 }
 
 
