@@ -19,8 +19,15 @@ glm::dvec3 DirectionalLight::shadowAttenuation(const ray& r, const glm::dvec3& p
 {
 	// YOUR CODE HERE:
 	// You should implement shadow-handling code here.
-	// ray sRay = ray(p, getDirection(p), glm::dvec3(1,1,1), ray::SHADOW);
+
+	ray sRay = ray(p, getDirection(p), glm::dvec3(1,1,1), ray::SHADOW);
+	isect is;
+	while(scene->intersect(sRay, is)){
+		return glm::dvec3(0.0, 0.0, 0.0);
+	}
+
 	return glm::dvec3(1.0, 1.0, 1.0);
+	
 }
 
 glm::dvec3 DirectionalLight::getColor() const
@@ -43,7 +50,7 @@ double PointLight::distanceAttenuation(const glm::dvec3& P) const
 	// point P.  For now, we assume no attenuation and just return 1.0
 	double dis = glm::distance(position, P);
 	double inten = 1 / (constantTerm + linearTerm * dis + quadraticTerm * dis * dis);
-	return max(1.0, inten);
+	return min(1.0, inten);
 }
 
 glm::dvec3 PointLight::getColor() const
@@ -61,6 +68,7 @@ glm::dvec3 PointLight::shadowAttenuation(const ray& r, const glm::dvec3& p) cons
 {
 	// YOUR CODE HERE:
 	// You should implement shadow-handling code here.
+	
 	ray sRay = ray(p, getDirection(p), glm::dvec3(1,1,1), ray::SHADOW);
 	isect is;
 	while(scene->intersect(sRay,is)){
@@ -72,7 +80,7 @@ glm::dvec3 PointLight::shadowAttenuation(const ray& r, const glm::dvec3& p) cons
 	}
 	
 
-	// return glm::dvec3(1,1,1);
+	return glm::dvec3(1,1,1);
 }
 
 #define VERBOSE 0

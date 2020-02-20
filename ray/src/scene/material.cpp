@@ -104,7 +104,7 @@ glm::dvec3 TextureMap::getPixelAt(int x, int y) const
 
 
 
-	return glm::dvec3(1, 1, 1);
+	// return glm::dvec3(1, 1, 1);
 }
 
 glm::dvec3 MaterialParameter::value(const isect& is) const

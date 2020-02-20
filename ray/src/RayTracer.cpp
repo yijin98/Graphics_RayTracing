@@ -71,6 +71,9 @@ glm::dvec3 RayTracer::tracePixel(int i, int j)
 // (or places called from here) to handle reflection, refraction, etc etc.
 glm::dvec3 RayTracer::traceRay(ray& r, const glm::dvec3& thresh, int depth, double& t )
 {
+	if(depth < 0){
+		return glm::dvec3(0.0, 0.0, 0.0);
+	}
 	isect i;
 	glm::dvec3 colorC;
 #if VERBOSE
@@ -126,11 +129,11 @@ glm::dvec3 RayTracer::traceRay(ray& r, const glm::dvec3& thresh, int depth, doub
 				ray refrRay = ray(r.at(i), angle, glm::dvec3(1.0,1.0,1.0),ray::REFRACTION);
 				double newT = 0;
 				glm::dvec3 c = traceRay(refrRay, thresh, depth - 1, newT);
-				// if(!in){
-				// 	for(int x  = 0;x < 3; x++){
-				// 		c[x] *= pow(m.kt(i)[x], newT);
-				// 	}
-				// }
+				if(!in){
+					for(int x  = 0;x < 3; x++){
+						c[x] *= pow(m.kt(i)[x], newT);
+					}
+				}
 				colorC += c;
 			}
 			else if (m.Refl()){
@@ -138,7 +141,13 @@ glm::dvec3 RayTracer::traceRay(ray& r, const glm::dvec3& thresh, int depth, doub
 				angle = -angle;
 				ray reflRay = ray(r.at(i), angle, glm::dvec3(1.0,1.0,1.0), ray::REFLECTION);
 				double newT = 0;
-				colorC += m.kr(i) * traceRay(reflRay, thresh, depth - 1, newT);
+				glm::dvec3 c = traceRay(reflRay, thresh, depth - 1, newT);
+				if(!in){
+					for(int x  = 0;x < 3; x++){
+						c[x] *= pow(m.kt(i)[x], newT);
+					}
+				}
+				colorC += c;
 			}
 		}
 	} else {
