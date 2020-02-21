@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <glm/vec3.hpp>
+#include <algorithm>
 
 class TextureMap;
 class ray;

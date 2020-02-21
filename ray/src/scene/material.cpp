@@ -83,8 +83,22 @@ glm::dvec3 TextureMap::getMappedValue(const glm::dvec2& coord) const
 	// [0, 1] x [0, 1] in 2-space to bitmap coordinates,
 	// and use these to perform bilinear interpolation
 	// of the values.
+	double x = coord[0] * double(width - 1);
+	double y = coord[1] * double(height - 1);
 
-	return glm::dvec3(1, 1, 1);
+	double xup = double(int(x) + 1) - x;
+	double xdown = x - double(int(x));
+	double yup = double(int(y) + 1) - y;
+	double ydown = y - double(int(y));
+
+	glm::dvec3 c11 = getPixelAt(int(x), int(y));
+	glm::dvec3 c12 = getPixelAt(int(x), int(y) + 1);
+	glm::dvec3 c21 = getPixelAt(int(x) + 1, int(y));
+	glm::dvec3 c22 = getPixelAt(int(x) + 1, int(y) + 1);
+	glm::dvec3 color = c11 * (xup) * (yup) + c21 * (xdown) * (yup) +
+							c12 * (xup) * (ydown) + c22 * (xdown) * (ydown);
+
+	return color;
 }
 
 glm::dvec3 TextureMap::getPixelAt(int x, int y) const
