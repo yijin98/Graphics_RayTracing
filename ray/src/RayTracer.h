@@ -72,6 +72,7 @@ private:
 	std::vector<bool> threadStatus;
 	std::vector<std::thread> pool;
 	void NewRayTrace(int tid, int w, int h);
+	bool antialias;
 
 };
 

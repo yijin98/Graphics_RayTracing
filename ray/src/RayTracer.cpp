@@ -20,6 +20,8 @@
 #include <iostream>
 #include <fstream>
 
+#include <random>
+
 using namespace std;
 extern TraceUI* traceUI;
 
@@ -52,13 +54,26 @@ glm::dvec3 RayTracer::tracePixel(int i, int j)
 	glm::dvec3 col(0,0,0);
 
 	if( ! sceneLoaded() ) return col;
+	if (antialias) {
+		int s = samples;
+		for(int m = 0; m < s; m++){
+			for(int n = 0; n < s; n++){
+				double x = (i + double(m) / double(s)) / double(buffer_width);
+				double y = (j + double(n) / double(s)) / double(buffer_height);
+				col += trace(x, y);
+			}
+		}
+		col /= (double) s * s;
+	} else {
 
-	double x = double(i)/double(buffer_width);
-	double y = double(j)/double(buffer_height);
+		double x = double(i)/double(buffer_width);
+		double y = double(j)/double(buffer_height);
+		col = trace(x, y);
 
+	}
+	
 	unsigned char *pixel = buffer.data() + ( i + j * buffer_width ) * 3;
-	col = trace(x, y);
-
+	
 	pixel[0] = (int)( 255.0 * col[0]);
 	pixel[1] = (int)( 255.0 * col[1]);
 	pixel[2] = (int)( 255.0 * col[2]);
@@ -314,6 +329,12 @@ int RayTracer::aaImage()
 	//
 	// TIP: samples and aaThresh have been synchronized with TraceUI by
 	//      RayTracer::traceSetup() function
+	antialias = true;
+	cout << "here";
+	for (int i = 0; i < threads; i++){
+		threadStatus[i] = false;
+		pool.push_back(std::thread(&RayTracer::NewRayTrace, this, i, buffer_width, buffer_height));
+	}
 	return 0;
 }
 
