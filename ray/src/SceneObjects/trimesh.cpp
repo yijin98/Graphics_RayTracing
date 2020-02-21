@@ -97,7 +97,62 @@ bool TrimeshFace::intersectLocal(ray& r, isect& i) const
 	//
 	// FIXME: Add ray-trimesh intersection
 
-	return false;
+	const glm::dvec3 a = parent->vertices[ids[0]];
+	const glm::dvec3 b = parent->vertices[ids[1]];
+	const glm::dvec3 c = parent->vertices[ids[2]];
+
+	double rayT = glm::dot(a - r.getPosition(), normal) / glm::dot(r.getDirection(),normal);
+
+	if(rayT <= RAY_EPSILON){
+		return false;
+	}
+
+	glm::dvec3 p = r.getPosition() + r.getDirection() * rayT;
+	glm::dvec3 area;
+	double dot20 = glm::dot(p - a, b - a);
+	double dot21 = glm::dot(p - a, c - a);
+	double dot00 = glm::dot(b - a, b - a);
+	double dot01 = glm::dot(b - a, c - a);
+	double dot11 = glm::dot(c - a, c - a);
+	double inv = 1 / (dot00 * dot11 - dot01 * dot01);
+
+	area[1] = (dot11 * dot20 - dot01 * dot21) * inv;
+	area[2] = (dot00 * dot21 - dot01 * dot20) * inv;
+	area[0] = 1.0 - area[1] - area[2];
+	for(int x = 0; x < 3; x++){
+ 		if(area[x] < 0 || area[x] > 1){
+			return false;
+		 }
+	}
+	i.setT(rayT);
+	i.setBary(area);
+
+	glm::dvec3 pn = glm::dvec3(0.0, 0.0, 0.0);
+	if(parent->normals.size()){
+		for(int x = 0; x < 3; x++){
+			pn += area[x] * parent->normals[ids[x]];
+		}
+		pn = glm::normalize(pn);
+	}else{
+		pn = normal;
+	}
+	i.setN(pn);
+
+	Material pm = Material();
+	if(parent->materials.size()){
+		for(int x = 0; x < 3; x++){
+			pm += area[x] * (*(parent->materials[ids[x]]));
+		}
+	}
+	else{
+		pm = getMaterial();
+	}
+	i.setMaterial(pm);
+
+	double l = glm::distance(p, glm::dvec3(0,0,0));
+	i.setUVCoordinates(glm::dvec2(acos(p[2] / l), acos(p[0] / (l * sin(acos(p[2] / l))))));
+	
+	return true;
 }
 
 // Once all the verts and faces are loaded, per vertex normals can be
