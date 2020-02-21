@@ -162,7 +162,7 @@ glm::dvec3 RayTracer::traceRay(ray& r, const glm::dvec3& thresh, int depth, doub
 						c[x] *= pow(m.kt(i)[x], newT);
 					}
 				}
-				colorC += c;
+				colorC += m.kr(i) * c;
 			}
 		}
 	} else {
