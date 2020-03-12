@@ -1,7 +1,0 @@
-Assignment 1 Progress Report
-Group Member: Yijin Zhao, Annan Wang
-
-Progress: My teammate and I were a little busy for the past week so we just got started today and did not make much progress other than install and build the starter code. We read and explored the code and plan to finish the TraceRay Method which we did not finish compiling right now. So right now the only runnable version we got is the starter code.
-
-Plan for completing:
-We plan to add the functionality in the RayTracer.cpp file and implement the Whitted illumination model before Friday, finish adding code to methods in material.cpp and light.cpp during the weekend, and implment code of trimesh.cpp before next Tuesday then wrapping it up before due date.

@@ -7,6 +7,17 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "CMakeFiles/feature_tests.c"
+  "CMakeFiles/feature_tests.cxx"
+  "../cmake/env.cmake"
+  "../cmake/gcc.cmake"
+  "../cmake/glm.cmake"
+  "../cmake/msvc.cmake"
+  "../src/CMakeLists.txt"
   "/usr/lib/cmake/glm/glmConfig.cmake"
   "/usr/lib/cmake/glm/glmConfigVersion.cmake"
   "/usr/lib/cmake/glm/glmTargets.cmake"
@@ -106,17 +117,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.10/Modules/SelectLibraryConfigurations.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.10.2/CMakeSystem.cmake"
-  "CMakeFiles/feature_tests.c"
-  "CMakeFiles/feature_tests.cxx"
-  "../cmake/env.cmake"
-  "../cmake/gcc.cmake"
-  "../cmake/glm.cmake"
-  "../cmake/msvc.cmake"
-  "../src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

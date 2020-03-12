@@ -32,8 +32,8 @@ using std::unique_ptr;
 class Light;
 class Scene;
 
-template <typename Obj>
-class KdTree;
+// template <typename Obj>
+// class KdTree;
 
 class SceneElement {
 public:
@@ -283,7 +283,7 @@ private:
 	// are exempt from this requirement.
 	BoundingBox sceneBounds;
 
-	KdTree<Geometry>* kdtree;
+	//KdTree<Geometry>* kdtree;
 
 public:
 	// This is used for debugging purposes only.

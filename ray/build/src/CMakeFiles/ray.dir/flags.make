@@ -6,5 +6,5 @@ CXX_FLAGS = --std=c++14 -g -fdiagnostics-color=always
 
 CXX_DEFINES = -DGLM_ENABLE_EXPERIMENTAL -DGLM_FORCE_RADIANS=1 -DGLM_FORCE_SIZE_FUNC=1
 
-CXX_INCLUDES = -I/usr/local/include -I/opt/local/include -I/v/filer5b/v38q001/yijin/Graphics_RayTracing/ray/lib -I/usr/lib/fltk 
+CXX_INCLUDES = -I/usr/local/include -I/opt/local/include -I/u/yijin/Graphics_RayTracing/ray/lib -I/usr/lib/fltk 
 
