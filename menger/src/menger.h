@@ -15,6 +15,7 @@ public:
 			       std::vector<glm::vec4>& vtx_normals,
 	                       std::vector<glm::uvec3>& obj_faces) const;
 private:
+	
 	int nesting_level_ = 0;
 	bool dirty_ = false;
 };
