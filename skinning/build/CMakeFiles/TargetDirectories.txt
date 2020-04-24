@@ -1,0 +1,5 @@
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/CMakeFiles/utgraphicsutil.dir
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/CMakeFiles/pmdreader.dir
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/skinning.dir

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt
+C:/Users/Administrator/Desktop/vcpkg/installed/x86-windows/share/jpeg/vcpkg-cmake-wrapper.cmake
+C:/Users/Administrator/Downloads/cmake-3.17.1-win64-x64/cmake-3.17.1-win64-x64/share/cmake-3.17/Modules/FindJPEG.cmake
+C:/Users/Administrator/Downloads/cmake-3.17.1-win64-x64/cmake-3.17.1-win64-x64/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Administrator/Downloads/cmake-3.17.1-win64-x64/cmake-3.17.1-win64-x64/share/cmake-3.17/Modules/FindPackageMessage.cmake
