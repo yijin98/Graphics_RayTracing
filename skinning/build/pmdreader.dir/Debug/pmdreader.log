@@ -1,0 +1,58 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/CMakeLists.txt
+  ._bitmap.cpp
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._mmdadapter.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._bitmap.cpp(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  bitmap.cpp
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\._mmdadapter.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\lib\pmdreader\bitmap.cpp(23,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mmdadapter.cc
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'

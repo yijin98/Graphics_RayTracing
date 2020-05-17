@@ -316,7 +316,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <CustomBuild Include="C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
+C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -324,12 +324,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
+C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -337,12 +337,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
+C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -350,12 +350,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
+C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\bin\cmake.exe -SC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning -BC:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build --check-stamp-file C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -363,7 +363,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Downloads\cmake-3.17.1-win64-x64\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Desktop\cmake-3.17.1-win64-x64\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Desktop\vcpkg\installed\x86-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>

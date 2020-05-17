@@ -1,0 +1,211 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/Graphics_RayTracing/skinning/src/CMakeLists.txt
+  ._animation_loader_saver.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._bone_geometry.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._animation_loader_saver.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,46): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,96): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,122): error C2018:  unknown character '0x2'
+  ._gui.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._bone_geometry.cc(1,131): error C2018:  unknown character '0x10'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._main.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._gui.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._procedure_geometry.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._main.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._render_pass.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._procedure_geometry.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  ._shader_uniform.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._render_pass.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,1): warning C4821:  Unable to determine Unicode encoding type, please save the file with signature (BOM)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,2): error C2018:  unknown character '0x5'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,3): error C2018:  unknown character '0x16'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,4): error C2018:  unknown character '0x7'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,6): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,16): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,13): error C2146:  syntax error: missing ';' before identifier 'OS'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,26): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,34): error C2059:  syntax error: 'bad suffix on number'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,34): error C3873:  '0xa1': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,43): error C2018:  unknown character '0x2'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,124): error C2018:  unknown character '0x1'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,133): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,136): error C2018:  unknown character '0x15'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,140): error C3927:  '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,140): error C3484:  syntax error: expected '->' before the return type
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,146): error C3613:  missing return type after '->' ('int' assumed)
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,146): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,141): error C2146:  syntax error: missing ';' before identifier 'apple'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,160): error C2041:  illegal digit '8' for base '8'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,165): error C2177:  constant too big
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,165): error C2059:  syntax error: 'constant'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,179): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,188): error C2143:  syntax error: missing ';' before '-'
+  animation_loader_saver.cc
+  bone_geometry.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\._shader_uniform.cc(1,188): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(18,47): warning C4305:  'initializing': truncation from 'double' to 'float'
+  gui.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(23,43): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\gui.h(63,34): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(18,47): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(23,43): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\gui.cc(99,15): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  main.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\gui.cc(100,30): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(18,47): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(23,43): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\gui.h(63,34): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:  'argument': conversion from 'U' to 'T', possible loss of data
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         with
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         [
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:             U=unsigned int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         ]
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         and
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         [
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:             T=float
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\third-party\glm\glm\detail\type_vec4.inl(604,106): warning C4244:         ]
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :  see reference to function template instantiation 'glm::vec<4,float,0> &glm::vec<4,float,0>::operator /=<unsigned int>(U)' being compiled
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         with
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         [
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :             U=unsigned int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         ]
+  procedure_geometry.cc
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :  see reference to function template instantiation 'glm::vec<4,float,0> &glm::vec<4,float,0>::operator /=<unsigned int>(U)' being compiled
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         with
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         [
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :             U=unsigned int
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\main.cc(114): message :         ]
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(18,47): warning C4305:  'initializing': truncation from 'double' to 'float'
+  render_pass.cc
+  shader_uniform.cc
+  Generating Code...
+C:\Users\Administrator\Desktop\Graphics_RayTracing\skinning\src\config.h(23,43): warning C4305:  'initializing': truncation from 'double' to 'float'

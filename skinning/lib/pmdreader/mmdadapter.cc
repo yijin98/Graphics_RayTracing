@@ -3,10 +3,10 @@
  * libmmd is a header only library. Keeping mmd.hxx only included by a source
  * file rather a header file can reduce compiling time.
  */
+#include <iostream>
 #include "mmdadapter.h"
 #include "mmd/mmdslim.hh"
 #include "bitmap.h"
-#include <iostream>
 #include <exception>
 #include <unordered_map>
 
